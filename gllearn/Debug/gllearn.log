@@ -1,10 +1,32 @@
 ﻿  game.cpp
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(61,112): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(62,112): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(63,118): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(64,115): warning C4244: “参数”: 从“double”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(144,130): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(146,113): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(148,115): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
+E:\zksj\project\vs\gllearn\gllearn\game.cpp(150,114): warning C4244: “参数”: 从“float”转换到“GLuint”，可能丢失数据
   soil.lib(SOIL.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
 LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
 LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   正在生成代码
   已完成代码的生成
+LINK : warning LNK4286: 符号“___glewBindBuffer”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewBindBuffer”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewBufferData”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewBufferData”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewGenBuffers”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewGenBuffers”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewEnableVertexAttribArray”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewEnableVertexAttribArray”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewVertexAttribPointer”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewVertexAttribPointer”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewBindVertexArray”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewBindVertexArray”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
+LINK : warning LNK4286: 符号“___glewGenVertexArrays”(在“glew32s.lib(glew.obj)”中定义)已由“particle_generator.obj”导入
+LINK : warning LNK4286: 符号“___glewGenVertexArrays”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
 LINK : warning LNK4286: 符号“___glewDeleteProgram”(在“glew32s.lib(glew.obj)”中定义)已由“resource_manager.obj”导入
 LINK : warning LNK4286: 符号“___glewAttachShader”(在“glew32s.lib(glew.obj)”中定义)已由“shader.obj”导入
 LINK : warning LNK4286: 符号“___glewCompileShader”(在“glew32s.lib(glew.obj)”中定义)已由“shader.obj”导入
@@ -26,13 +48,6 @@ LINK : warning LNK4286: 符号“___glewUniform4f”(在“glew32s.lib(glew.obj)
 LINK : warning LNK4286: 符号“___glewUniformMatrix4fv”(在“glew32s.lib(glew.obj)”中定义)已由“shader.obj”导入
 LINK : warning LNK4286: 符号“___glewUseProgram”(在“glew32s.lib(glew.obj)”中定义)已由“shader.obj”导入
 LINK : warning LNK4286: 符号“___glewActiveTexture”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewBindBuffer”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewBufferData”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewGenBuffers”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewEnableVertexAttribArray”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewVertexAttribPointer”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewBindVertexArray”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
 LINK : warning LNK4286: 符号“___glewDeleteVertexArrays”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
-LINK : warning LNK4286: 符号“___glewGenVertexArrays”(在“glew32s.lib(glew.obj)”中定义)已由“sprite_renderer.obj”导入
 glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“E:\zksj\project\vs\gllearn\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   gllearn.vcxproj -> E:\zksj\project\vs\gllearn\Debug\gllearn.exe
